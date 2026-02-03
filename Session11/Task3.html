@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task 3 – E-Commerce UI</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+}
+
+header {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    background: white;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+h2 {
+    text-align: center;
+    color: #ff758c;
+}
+
+label {
+    margin-top: 15px;
+    display: block;
+    font-weight: 600;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    margin-top: 25px;
+    background: #ff758c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #ff5c8a;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Online Store Filters</h1>
+    <p>Advanced Product Search</p>
+</header>
+
+<form>
+    <h2>Filter Products</h2>
+
+    <label>Price Range</label>
+    <input type="range" min="500" max="5000">
+
+    <label>Choose Color</label>
+    <input type="color">
+
+    <label>Select Brand</label>
+    <select>
+        <option>Apple</option>
+        <option>Samsung</option>
+        <option>OnePlus</option>
+        <option>Realme</option>
+    </select>
+
+    <label>Customer Rating</label>
+    <select>
+        <option>⭐ 1 Star</option>
+        <option>⭐⭐ 2 Stars</option>
+        <option>⭐⭐⭐ 3 Stars</option>
+        <option>⭐⭐⭐⭐ 4 Stars</option>
+        <option>⭐⭐⭐⭐⭐ 5 Stars</option>
+    </select>
+
+    <input type="submit" value="Apply Filters">
+</form>
+
+</body>
+</html>
