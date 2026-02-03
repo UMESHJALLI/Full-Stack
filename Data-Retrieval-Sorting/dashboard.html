@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<select id="sort">
+  <option value="">Sort</option>
+  <option value="name">Name</option>
+  <option value="dob">DOB</option>
+</select>
+<button onclick="load()">Apply</button>
+
+<table border="1">
+<tbody id="data"></tbody>
+</table>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
+dashboard.js
+async function load(){
+    const sort=document.getElementById("sort").value;
+    const res=await fetch(`http://localhost:3000/students?sort=${sort}`);
+    const data=await res.json();
+    document.getElementById("data").innerHTML=
+      data.map(s=>`<tr><td>${s.name}</td><td>${s.department}</td></tr>`).join("");
+}
