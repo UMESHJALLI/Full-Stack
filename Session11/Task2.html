@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task 1 – Layout Design</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    background: #ffffff;
+    padding: 12px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    color: #555;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #667eea;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+}
+
+/* SIDEBAR */
+aside {
+    width: 230px;
+    background: #2d2f36;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+aside h3 {
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    padding: 30px;
+}
+
+/* GRID */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.grid-box {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.grid-box:hover {
+    transform: translateY(-5px);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Modern HTML Layout</h1>
+    <p>Grid + Fixed Sidebar Design</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <aside>
+        <h3>Dashboard</h3>
+        <p>✔ Sidebar Menu</p>
+        <p>✔ Sticky Layout</p>
+        <p>✔ Semantic HTML</p>
+    </aside>
+
+    <main>
+        <h2>Grid Based Content</h2>
+        <div class="grid-layout">
+            <div class="grid-box">Card 1</div>
+            <div class="grid-box">Card 2</div>
+            <div class="grid-box">Card 3</div>
+            <div class="grid-box">Card 4</div>
+            <div class="grid-box">Card 5</div>
+            <div class="grid-box">Card 6</div>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
