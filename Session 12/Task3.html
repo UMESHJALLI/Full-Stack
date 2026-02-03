@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3 - Form Validation</title>
+</head>
+<body>
+
+<h2>Tantraz Registration with Validation</h2>
+
+<form aria-label="Validated Registration Form">
+
+    <label for="name">Full Name *</label>
+    <input type="text"
+           id="name"
+           name="name"
+           placeholder="Your full name"
+           aria-label="Full name"
+           required>
+
+    <label for="email">Email *</label>
+    <input type="email"
+           id="email"
+           name="email"
+           placeholder="Enter valid email"
+           aria-label="Email address"
+           required>
+
+    <label for="category">Participation Category *</label>
+    <select id="category"
+            name="category"
+            aria-label="Participation category"
+            required>
+        <option value="">Choose one</option>
+        <option value="individual">Individual</option>
+        <option value="team">Team</option>
+        <option value="audience">Audience</option>
+    </select>
+
+    <label for="bio">Expectations (Max 200 characters)</label>
+    <textarea id="bio"
+              name="bio"
+              placeholder="Share your thoughts..."
+              maxlength="200"
+              rows="4"
+              aria-label="Expectations or suggestions"></textarea>
+
+    <br><br>
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
