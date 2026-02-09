@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+/* Square object */
+#box {
+    width: 80px;
+    height: 80px;
+    background-color: #4CAF50;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+    /* Uncomment for circle */
+    /* border-radius: 50%; */
+}
