@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>My Role Model – Sardar Vallabhai Patel </title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(#0f172a, #020617);
+            color: #f1f5f9;
+            margin: 0;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #020617;
+            border-bottom: 2px solid #38bdf8;
+        }
+        header h1 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+        }
+        .hero img {
+            width: 220px;
+            border-radius: 50%;
+            border: 3px solid #38bdf8;
+            margin-bottom: 15px;
+        }
+        section {
+            margin: 25px 0;
+            padding: 20px;
+            border-left: 4px solid #38bdf8;
+            background: #020617;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #38bdf8;
+        }
+        .quote {
+            font-style: italic;
+            color: #e5e7eb;
+            background: #0f172a;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #fbbf24;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #9ca3af;
+            border-top: 1px solid #334155;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>My Role Model</h1>
+    <h2>Sardar Vallabai Patel</h2>
+    <p>"Iron Man of India"</p>
+</header>
+
+<div class="container">
+    <div class="hero">
+        <img src="https://www.cheggindia.com/wp-content/uploads/2025/07/gk-45232-iron-man-of-india-v1.png" alt="Sardar Vallabhai Patel">
+    </div>
+
+    <section>
+        <h2>About Him</h2>
+        <p>
+            Sardar Vallabai Patel is remembered as a very strong and dynamic freedom fighter of India and had actively contributed to the
+            Indian Freedom Movement. Sardar Patel was one of the most eminent 
+            and prominent leaders of the Indian Freedom struggle.
+        </p>
+    </section>
+
+    <section>
+        <h2>Why He Inspires Me</h2>
+        <ul>
+            <li>He played a critical role in India's independence movement and brought together the country's princely states into a single nation.</li> 
+            <li> His firm leadership and vision shaped modern India. The Sardar Vallabhbhai Patel statue in Gujarat honors his legacy.</li>
+            <li>He is remembered for his honesty, unity, and service to the nation.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Key Achievements</h2>
+        <ul>
+            <li>India's first Deputy Prime Minister and Home Minister in integrating.</li>
+            <li>Preventing fragmentation; leading successful peasant movements like the Bardoli Satyagraha.</li>
+            <li>Organizing refugee relief and restoring peace post-partition.</li>
+            <li>Earning him the title 'Sardar".</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>His Inspirational Quote</h2>
+        <p class="quote">
+            “ Unity, Strength, Duty, and Self-reliance.”
+        </p>
+    </section>
+
+    <section>
+        <h2>Legacy</h2>
+        <p>
+            Sardar Patel held that Fundamental Rights and Liberty are essential pre-
+requisites for the development of the individual and a nation. His devotion to
+work for the farmers’ rights gave Patel the title “Sardar”.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    Designed by Student — Tribute to an Iron man of India.
+</footer>
+
+</body>
+</html>

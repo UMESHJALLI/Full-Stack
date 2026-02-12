@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Favorite Foods</title>
+</head>
+<body>
+    <h2>My Favorite Foods</h2>
+    <ul>
+        <li>Dosa</li>
+        <li>Chicken</li>
+        <li>Chocolates</li>
+        <li>Fish</li>
+        <li>Chips</li>
+    </ul>
+</body>
+</html>
